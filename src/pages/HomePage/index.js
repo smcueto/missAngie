@@ -24,7 +24,7 @@ export default () =>{
         <section className={ styles.work }>
             <div className={ styles.title }>
                 <h3>Resources for Upcoming Year</h3>
-                <p>Parents and wanderers, please take a look at the resources below for this upcoming academic year!</p>
+                <p>Parents and wanderers, please take a look at the resources below for this upcoming academic year!</p> <br />
             </div>
             <WorkLists dataSource = { worksData.data } />
         </section>

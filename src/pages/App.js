@@ -24,7 +24,7 @@ class App extends Component {
 
          {/* 内容区 */}
          <section className={styles.content}>
-           <Route path="/missAngie" exact component={ HomePage } />
+           <Route path="/" exact component={ HomePage } />
            <Route path="/works" exact component={ WorkPage } />
            <Route path="/works/:id" exact component={ WorkPageDetail } />
          </section>
