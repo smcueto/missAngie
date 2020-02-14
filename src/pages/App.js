@@ -31,7 +31,7 @@ class App extends Component {
 
          {/* 底部 */}
          <footer className={styles.footer}>
-           <p>© <b>2019</b></p>
+           <p>© <b>2020</b></p>
            <p>smcueto</p>
          </footer>
       </div>
