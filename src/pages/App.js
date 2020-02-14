@@ -14,7 +14,7 @@ class App extends Component {
          {/* 头部导航 */}
          <header className={styles.header}>
             <div className={styles.box}>
-               <Link to="/"><div className={styles.boxleft}>Welcome to the Classroom</div></Link>
+               <Link to="/"><div className={styles.boxleft}>yoo Welcome to the Classroom</div></Link>
                <div className={styles.boxright}>
                   <Link to="/"><p className={ location.pathname==="/" ? styles.selected : null }>Home</p></Link>
                   <Link to="/works"><p className={ location.pathname==="/works" ? styles.selected : null } >Resources</p></Link>
@@ -24,7 +24,7 @@ class App extends Component {
 
          {/* 内容区 */}
          <section className={styles.content}>
-           <Route path="/" exact component={ HomePage } />
+           <Route path="/missAngie" exact component={ HomePage } />
            <Route path="/works" exact component={ WorkPage } />
            <Route path="/works/:id" exact component={ WorkPageDetail } />
          </section>
